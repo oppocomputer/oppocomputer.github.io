@@ -1,0 +1,126 @@
+@import url("/fonts/colfax/colfax.css");
+
+html, body { 
+    /*margin: 0; */
+    height: 100%;
+    font-family:'Colfax Regular';
+    font-weight: normal;
+    
+}
+
+body {
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+}
+p {
+  font-size: larger;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+#formula {
+  margin-top:0.5rem;
+}
+
+input {
+  margin-left: 1.5rem;
+}
+
+body > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) {
+  padding-left: 1.5rem;
+  padding-top: 3rem;
+}
+
+div {
+  margin-left: 1.5rem;
+}
+
+#massadeficit2 {
+  margin-left: 1.5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+.vstack {
+  margin-left: -1.75em;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1c1c1e;
+  }
+  h1, p, div {
+    color: #F3F5F5;
+  }
+
+}
+
+
+
+.math-box {
+  margin-top: 1rem;
+  display: inline-block;
+}
+.math-box .vstack {
+  display: inline-block;
+  position: relative;
+}
+.math-box .vstack > div {
+  position: relative;
+  text-align: center;
+  height: 0;
+}
+.math-box .baseline-fix {
+  display: inline-table;
+  table-layout: fixed;
+}
+.math-box .frac-line {
+  width: 100%;
+  display: inline-block;
+}
+.math-box .frac-line:before {
+  display: block;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  content: "";
+}
+.math-box .frac-line:after {
+  display: block;
+  margin-top: -1px;
+  border-bottom-style: solid;
+  border-bottom-width: 0.04em;
+  content: "";
+}
+.math-box .strut {
+  display: inline-block; 
+}
+
+
+button {
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:3px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+button:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+        

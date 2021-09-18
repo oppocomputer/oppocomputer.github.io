@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <title>Simple Nuclide Calculator</title>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <meta name="description" content="Simple " />
+
+  <link rel="stylesheet" type="text/css" href="styles/common.css" />
+  <script type="text/javascript" src="scripts/nuclideCalc.js"></script>
+  <meta name="theme-color" content="">
+
+</head>
+
+<body>
+  <h1>Simple Nuclide Calculator (Yves Jayvee)</h1>
+  <table>
+    <tr>
+      <td>
+        <p>A (massagetal):</p>
+        <input id="massagetal" type="text" placeholder="b.v. 16" value="16">
+        <p>Z (atoomnummer):</p>
+        <input id="atoomnummer" type="text" placeholder="b.v. 8" value="8">
+        <p>Atoommassa in u <br>(met elektronen):</p>
+        <input id="atoommassa" type="text" placeholder="b.v. 15,99491" value="15,99491">
+      </td>
+      <td VALIGN=TOP ALIGN=LEFT>
+        <button onclick="calculate()">Bereken!</button>
+      </td>
+      <td VALIGN=TOP>
+        <p>Kerndeeltjes</p>
+          <div id="kerndeeltjes"> 
+            p<sup>+</sup>: 8, n<sup>0</sup>: 8, e<sup>-</sup>: 8
+          </div>
+          <div id="kernmassa">
+            m<sub>kern</sub> = 16,12753u
+          </div>
+        <p>Massa Deficit</p>
+          <div id="massadeficit1"> 
+            16,12753u - 15,99052u = 0,13701u
+          </div>
+          <div id="formula">
+            E = mc<sup>2</sup> <br>
+            mc<sup>2</sup> = E
+          </div>
+          <div id="massadeficit2">
+            BE = 0,13701u
+            <span class="math-box">
+              <span class="strut" style="height: 2.008em; vertical-align: -0.686em;"></span>
+              <span class="vstack">
+                <div style="top: 0.686em;">u</div>
+                <div style="top: -0.677em;">931 MeV</div>
+                <div style="top: -0.23em;"><span class="frac-line"></span></div>
+                <span class="baseline-fix"></span>
+              </span>
+            </span>
+            = 127,55631 MeV
+          </div>
+          <div id="specifiekebindingsenergie">
+            SBE = 
+            <span class="math-box">
+              <span class="strut" style="height: 2.008em; vertical-align: -0.686em;"></span>
+              <span class="vstack">
+                <div style="top: 0.686em;">16</div>
+                <div style="top: -0.677em;">127,55631 MeV</div>
+                <div style="top: -0.23em;"><span class="frac-line"></span></div>
+                <span class="baseline-fix"></span>
+              </span>
+            </span>
+            = 7,97227 MeV
+          </div>
+
+        </div>
+      </td>
+    </tr>
+  </table>
+
+
+
+
+  
+  
+
+  
+</body>
+
+</html>
