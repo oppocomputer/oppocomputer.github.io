@@ -1,0 +1,44 @@
+@media (prefers-color-scheme: light) {
+    body {
+        color:#FFF;
+    }
+    a {
+        color: #0e0e0e;
+    }
+    a:hover {
+        color:lightblue;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #0e0e0e;
+    }
+    a {
+        color:#FFF;
+    }
+    a:hover {
+        color:#d3d3d3;
+    }
+
+
+}
+body > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(1){
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+p{
+    text-align: center;
+    vertical-align: middle; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 3rem;
+}  
+
+a:link{ 
+    text-decoration: none;
+}
+

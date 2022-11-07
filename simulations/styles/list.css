@@ -1,0 +1,23 @@
+a {
+    color:#FFFFFF;
+    font-family:arial, sans-serif;
+    font-size:10pt; 
+    font-weight:bold; 
+    text-decoration:none;}
+a:visited {
+    color:#999999;
+}
+a:hover {
+    color:lightblue;
+}
+.fa-dot-circle{
+    color:#0959ed;
+    padding-right: 0.25em;
+}
+.fa-dot-circle:hover{
+    color:lightblue;
+    padding-right: 0.25em;
+}
+body{
+    background-color:#333333;
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp codebase="../lib/" spec="1.0+">
+ <information>
+  <title>
+   Simulation 33
+  </title>
+  <vendor>
+   jayvee
+  </vendor>
+  <homepage href=""/>
+  <description>
+   Sim33
+  </description>
+ </information>
+ <update check="always"/>
+ <security>
+  <sandbox/>
+ </security>
+ <resources>
+  <j2se version="1.8+"/>
+  <jar href="wileySim33.jar" main="true"/>
+  <jar href="wileycommon.jar"/>
+ </resources>
+ <applet-desc height="300" main-class="Sim33.class" name="Sim33" width="508">
+  <param name="background" value="#ffffff"/>
+  <param name="mediabase" value="../media/"/>
+  <param name="file1" value="pictures/s33_bg.gif"/>
+  <param name="file2" value="pictures/n_turnon.gif"/>
+  <param name="file3" value="pictures/n_turnoff.gif"/>
+  <param name="file4" value="pictures/n_openswitch.gif"/>
+  <param name="file5" value="pictures/n_closeswitch.gif"/>
+  <param name="file6" value="pictures/bulb.gif"/>
+ </applet-desc>
+</jnlp>

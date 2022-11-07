@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp codebase="../lib/" spec="1.0+">
+ <information>
+  <title>
+   Simulation 35
+  </title>
+  <vendor>
+   jayvee
+  </vendor>
+  <homepage href=""/>
+  <description>
+   Sim35
+  </description>
+ </information>
+ <update check="always"/>
+ <security>
+  <sandbox/>
+ </security>
+ <resources>
+  <j2se version="1.8+"/>
+  <jar href="wileySim35.jar" main="true"/>
+  <jar href="wileycommon.jar"/>
+ </resources>
+ <applet-desc height="400" main-class="Sim35.class" name="Sim35" width="508">
+  <param name="background" value="#ffffff"/>
+  <param name="mediabase" value="../media/"/>
+  <param name="file1" value="pictures/s35_bg.gif"/>
+  <param name="file2" value="pictures/n_slider.gif"/>
+  <param name="file3" value="pictures/n_charge35.gif"/>
+  <param name="file4" value="pictures/n_discharge35.gif"/>
+  <param name="file5" value="pictures/n_pause.gif"/>
+  <param name="file6" value="pictures/n_reset.gif"/>
+  <param name="file7" value="pictures/n_stback.gif"/>
+  <param name="file8" value="pictures/n_stforw.gif"/>
+  <param name="file9" value="pictures/n_cleartrace.gif"/>
+ </applet-desc>
+</jnlp>
