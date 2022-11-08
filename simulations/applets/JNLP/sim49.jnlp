@@ -21,7 +21,7 @@
   <jar href="wileySim49.jar" main="true"/>
   <jar href="wileycommon.jar"/>
  </resources>
- <applet-desc height="400" main-class="Sim49.class" name="Sim49" width="508">
+ <applet-desc height="400" main-class="ASim49.class" name="Sim49" width="508">
   <param name="background" value="#ffffff"/>
   <param name="mediabase" value="../media/"/>
   <param name="file1" value="pictures/s49_bg.gif"/>
